@@ -12,10 +12,28 @@
 
 
 ### 安装
+```bash
+$ go get -u github.com/HansonYip/ankisentrans
+$ ankisentrans
+A tool for sentence translation for Anki.
 
+Usage:
+  ankisentrans [command]
 
+Available Commands:
+  help        Help about any command
+  translate   
 
+Flags:
+  -h, --help   help for ankisentrans
+
+Use "ankisentrans [command] --help" for more information about a command.
+```
 
 
 ### 使用
+```bash
+$ ankisentrans translate <src_file> <dest_file>
+```
+
 
